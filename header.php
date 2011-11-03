@@ -22,7 +22,7 @@
 		<link rel="shortcut icon" href="icon.png" />
 		<link rel="apple-touch-icon-precomposed" href="icon.png" />-->
 	</head>
-	<body class="wrapper">
+	<body class="wrapper foo">
 			<?php wp_nav_menu(array(
 				'name' => 'Main',
 				'container'       => 'nav', 
