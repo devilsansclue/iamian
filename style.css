@@ -1,0 +1,151 @@
+/*
+Theme Name:     IAMIAN
+Theme URI:      http://iamian.me
+Description:    theme for my site based off of H5
+Author:         Ian Nusbaum
+Author URI:     http: //iamian.me/about/
+Version:        0.1.0
+*/
+
+
+
+html {
+	background: -moz-radial-gradient(50% 50% 0deg,ellipse cover, #FCF3A1, #E6DD93);
+}
+body{
+	font-family: 'Swanky and Moo Moo', arial, serif;
+	width: 960px;
+	margin: 0 auto;
+}
+
+a {
+	font-weight: bold;
+	text-decoration:none;
+	color: #444444;
+	font-size: 1.01em
+}
+
+a:hover {
+	text-decoration:undeline;
+}
+
+nav ul{
+	margin: 0;	
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family:  'Cabin Sketch',sans-serif;
+}
+#logo {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 3em;
+	line-height: 120px;
+}
+ul.tweets {
+	list-style: none;
+	height: 190px;
+	overflow: hidden;
+	font-size: 1.35em;
+	margin: 0;
+	
+}
+.tweet {
+	padding: 20px 0;
+}
+.tweet > p {
+	vertical-align: middle;
+	
+}
+
+aside > ul {
+	list-style: none;
+	padding: 0;
+	margin:	0;
+}
+
+nav > ul {
+	list-style: none;
+	text-align: center;
+}
+
+nav > ul > li {
+	display: inline-block;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 0 10px;
+		
+}
+
+body > footer {
+    padding-top: 20px;
+}
+
+#footer3 {
+	text-align: right;
+}
+
+#footer1 > ul,
+#footer2 > ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#footer3 > ul {
+	list-style: none;
+}
+
+#footer3 li{
+	display: inline-block;
+}
+#footer3 a {
+	margin: 5px 8px;
+	padding: 0;
+}
+#footer3 a > img {
+	width: 94px;
+	margin: 0;
+	padding: 0;
+}
+
+#content > div > article {
+    border-bottom: 1px solid #444444;
+    padding-bottom: 10px;
+}
+
+.tweets {
+	padding: 10px;
+}
+
+.tweets ul {
+    display: block;
+    height: 100px;
+    list-style: none outside none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.tweets li {
+    height: 130px;
+    margin: 0;
+    padding: 0;
+}
+.tweets {
+    background: rgba(230, 221, 141,.3);
+}
+.hireme img{
+	z-index: 0;
+}
+
+.hireme div{
+    font: 21px/39px 'Swanky and Moo Moo';
+    border: 3px solid #444444;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgb(230, 221, 141);
+    top: -21px;
+	position: relative;
+    z-index: 100;
+}
